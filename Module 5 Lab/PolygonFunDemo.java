@@ -20,8 +20,10 @@ public class PolygonFunDemo {
 		Scanner input=new Scanner(System.in);
 		Random generator=new Random();
 		PolygonFun polygons[]=new PolygonFun[3];
+		//Initializes a polygon with random numbers for all of its attributes.
 		polygons[0]=new PolygonFun(generator.nextInt(10),generator.nextDouble(),
 				generator.nextDouble()*4,generator.nextDouble()*4);
+		//Asks the user for the number of sides and side length of each 
 		System.out.print("How many sides should the second polygon have? ");
 		int sides=input.nextInt();
 		System.out.print("How long should each side be? ");
