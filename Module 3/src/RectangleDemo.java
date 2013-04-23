@@ -21,6 +21,7 @@ public class RectangleDemo {
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		Rectangle rectangle1=new Rectangle();
+
 		System.out.print("How long do you want the first rectangle to be? ");
 		rectangle1.setLength(input.nextDouble());
 		System.out.print("How wide do you want the first rectangle to be? ");

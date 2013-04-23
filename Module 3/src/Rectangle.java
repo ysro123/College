@@ -69,4 +69,8 @@ public class Rectangle {
 	public double getArea(){
 		return length*width;
 	}
+	@override
+	public String toString(){
+		return String.format("Width: %f; Length: %f",getWidth(),getLength());
+	}
 }
